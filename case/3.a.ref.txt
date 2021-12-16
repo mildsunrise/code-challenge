@@ -1,0 +1,10 @@
+Case #1: hate
+Case #2: high
+Case #3: stupid
+Case #4: -
+Case #5: lose
+Case #6: praise
+Case #7: true
+Case #8: soft
+Case #9: smooth
+Case #10: tame

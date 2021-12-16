@@ -1,0 +1,3 @@
+Case #1: BbCDEFGABb
+Case #2: F#GABCDEF#
+Case #3: CDEF#GABC

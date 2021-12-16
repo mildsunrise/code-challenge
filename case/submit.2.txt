@@ -1,0 +1,639 @@
+20
+3 2 40
+NIDORINA
+METAPOD
+SQUIRTLE
+N  E  A  X  W  E  R  Y  Y  I  G  A  D  W  W  O  J  Y  Z  J  O  W  H  Q  D  S  Q  U  I  R  T  L  E  P  O  L  U  N  F  M
+K  H  D  L  E  L  T  P  O  V  P  V  T  A  R  S  F  H  M  T  M  E  T  A  P  O  D  X  L  C  N  I  D  O  R  I  N  A  E  E
+6 4 38
+BUTTERFREE
+NIDORINA
+SANDSLASH
+FEAROW
+KAKUNA
+CHARMANDER
+N  Y  X  V  U  L  D  L  K  X  Z  A  T  V  S  L  Z  F  Y  Y  Z  B  R  Z  N  X  A  S  E  D  L  B  R  N  K  C  P  N
+K  Q  V  W  M  A  N  I  R  O  D  I  N  Z  W  K  S  A  N  D  S  L  A  S  H  L  X  K  A  H  F  E  A  R  O  W  J  X
+H  W  T  Q  P  H  Y  B  R  C  H  A  R  M  A  N  D  E  R  B  R  T  L  R  E  E  R  F  R  E  T  T  K  A  K  U  N  A
+U  B  O  Q  Y  A  P  L  I  D  Q  S  N  R  U  C  U  A  Z  F  S  V  S  C  T  R  F  V  J  W  E  N  L  U  M  V  D  Q
+4 6 36
+AMPHAROS
+JIGGLYPUFF
+NIDORINA
+IGGLYBUFF
+I  G  D  I  A  Z  X  A  E  K  B  D  B  N  G  A  C  I  T  Q  K  V  T  V  Z  V  H  B  P  G  A  Y  W  S  R  B
+D  Z  X  F  K  D  C  Z  J  Q  M  C  A  J  Q  L  X  A  O  B  R  C  K  H  H  M  S  Z  C  H  H  Q  S  R  W  K
+F  T  E  S  U  D  O  V  U  E  V  R  L  U  K  J  C  V  Q  A  N  Q  I  X  A  X  P  O  Z  T  R  G  B  I  G  G
+L  Y  B  U  F  F  S  G  M  K  F  J  K  Q  N  R  L  T  P  P  K  Z  N  I  D  O  R  I  N  A  L  G  K  Y  K  J
+M  C  O  E  T  U  X  Y  Z  A  E  N  D  C  D  E  K  V  Q  U  K  U  M  N  X  I  K  J  I  G  G  L  Y  P  U  F
+F  D  R  V  A  L  M  M  G  K  I  P  V  I  J  J  S  O  R  A  H  P  M  A  F  U  M  P  J  I  C  R  P  D  H  Z
+2 8 34
+SQUIRTLE
+JIGGLYPUFF
+K  U  Z  U  P  S  I  O  U  C  M  G  Q  V  F  K  F  L  C  R  N  C  Z  Z  V  U  E  G  N  U  N  K  P  A
+Z  J  I  G  G  L  Y  P  U  F  F  O  A  X  M  R  D  I  U  K  N  B  R  W  Z  R  M  Q  Z  O  T  S  G  K
+H  L  D  J  L  T  Q  F  I  Z  V  Z  H  I  A  L  C  K  F  G  B  A  D  B  V  E  L  A  A  X  U  Q  F  H
+M  V  P  Z  O  B  U  F  H  W  Q  J  Q  G  J  B  Y  L  K  K  A  X  E  U  M  R  X  F  X  T  T  N  O  F
+F  R  T  P  H  B  X  I  A  N  T  L  K  E  H  E  U  L  V  L  Z  W  A  S  N  Q  A  X  S  G  X  U  L  C
+K  R  Y  R  W  A  E  R  T  S  Q  U  I  R  T  L  E  O  R  W  L  W  Z  U  F  Y  F  O  N  L  G  L  Y  Y
+Q  D  L  Y  U  A  K  K  X  C  F  K  A  F  H  G  N  W  R  K  C  G  Z  U  O  Q  Y  D  H  N  N  N  Q  R
+L  I  H  R  P  X  P  Y  Y  N  V  L  R  A  S  W  S  F  H  P  L  H  N  D  M  Z  R  Q  X  X  R  G  K  V
+6 10 32
+EKANS
+FLAAFFY
+KAKUNA
+SANDSLASH
+PIDGEOT
+PIDGEY
+U  G  B  Y  O  O  E  E  B  Z  H  B  F  X  R  T  D  D  H  U  E  O  O  B  P  N  C  G  X  N  W  L
+L  D  T  A  N  K  A  K  U  N  A  Y  E  Z  A  Y  N  S  Y  B  Y  B  R  H  Z  H  P  H  H  Z  P  I
+D  G  E  O  T  X  M  Z  H  B  O  B  H  J  H  R  O  F  M  A  G  D  E  J  S  N  B  V  J  H  Z  M
+F  O  C  J  H  O  E  E  T  S  W  T  O  Y  K  J  L  N  L  Y  Q  W  B  W  V  C  P  X  D  T  B  P
+F  B  A  S  Q  W  P  E  R  D  X  Q  W  L  R  L  U  M  F  K  B  G  W  V  C  S  G  Q  D  Y  D  G
+V  A  W  D  D  N  R  N  K  C  S  V  I  O  P  S  H  F  L  A  A  F  F  Y  I  T  D  G  R  P  M  Q
+B  O  M  X  F  W  Q  T  G  O  I  H  U  A  U  X  M  S  Q  A  N  M  Q  Z  D  G  X  E  H  D  R  L
+S  C  J  G  I  Q  A  A  R  N  K  D  G  Y  Y  O  R  E  L  P  Q  N  N  H  M  B  U  X  X  L  R  O
+T  Z  T  M  S  B  F  G  H  B  O  X  C  W  L  S  A  N  D  Y  E  G  D  I  P  S  L  A  S  H  F  J
+O  P  U  L  E  R  O  A  K  S  N  A  K  E  N  L  K  E  K  B  O  A  U  F  Z  Q  P  M  Z  E  S  Y
+8 12 30
+RATICATE
+VULPIX
+ARBOK
+MAREEP
+RAICHU
+BELLOSSOM
+FEAROW
+VENUSAUR
+P  B  J  T  C  X  O  T  R  J  W  M  B  F  V  J  M  E  W  Q  Z  Y  T  Z  V  O  V  K  A  N
+E  W  Z  A  D  T  V  J  I  X  I  P  L  U  V  X  L  Z  V  H  J  O  X  J  Q  F  L  H  Z  H
+M  C  P  F  E  A  R  O  W  B  C  Q  A  R  B  O  K  R  J  E  P  V  O  H  E  J  G  H  P  R
+L  O  U  K  P  H  O  B  V  G  N  Q  T  G  H  V  E  L  E  A  I  E  P  U  M  W  A  S  A  M
+S  B  R  O  E  F  I  J  A  D  A  A  R  B  L  F  C  K  I  A  C  G  Q  F  B  O  G  L  Q  M
+Y  I  H  I  V  T  E  K  N  Y  I  W  I  X  O  G  I  G  V  O  J  Y  G  Q  E  A  I  N  M  J
+E  Q  R  O  W  H  K  U  J  T  F  V  Z  Y  M  B  L  A  G  J  J  J  V  G  T  G  Q  L  Z  M
+A  R  E  E  P  E  C  X  G  I  X  A  P  R  A  T  I  C  A  T  E  T  P  U  H  C  I  A  R  D
+I  J  U  Z  Z  X  H  V  G  Y  H  R  U  A  S  U  N  E  V  G  D  O  W  O  O  C  R  Z  J  X
+M  E  Q  W  J  I  O  N  Z  Y  G  L  W  R  Z  Q  M  K  N  D  J  V  D  B  L  K  Y  M  U  Z
+S  A  N  R  N  Z  U  S  N  W  P  G  N  I  B  M  L  R  S  D  R  I  X  T  G  Z  M  O  S  S
+O  L  L  E  B  N  V  M  H  M  P  C  H  D  Z  J  K  Y  C  T  W  O  T  F  L  J  Z  Q  T  M
+12 14 28
+JIGGLYPUFF
+BULBASAUR
+IGGLYBUFF
+RATICATE
+WIGGLYTUFF
+NINETALES
+GLOOM
+NIDOQUEEN
+METAPOD
+VULPIX
+NIDOKING
+SUDOWOODO
+T  E  F  H  H  X  C  W  N  Y  I  G  U  X  H  C  I  E  G  G  V  W  C  F  O  D  O  O
+W  O  D  U  S  W  U  I  H  L  A  T  O  G  J  X  X  A  J  E  N  F  D  T  M  B  A  P
+A  Y  B  Y  T  U  J  I  G  G  L  Y  P  U  F  F  J  V  I  V  I  Y  S  H  R  G  S  A
+Q  E  I  I  Y  I  H  V  N  I  D  O  K  I  N  G  U  S  L  K  R  X  B  H  F  L  M  O
+O  L  G  F  A  E  R  Y  L  D  Q  H  X  P  B  G  B  C  M  G  A  A  Z  F  F  U  B  Y
+L  G  G  I  V  H  P  Q  D  O  I  I  Y  B  U  V  C  Z  R  K  N  O  E  X  M  H  Y  I
+F  Y  S  Y  R  W  F  M  M  Z  B  F  O  L  B  W  W  C  O  R  U  A  S  A  B  L  U  B
+R  W  Z  H  C  B  I  S  S  B  U  R  B  L  N  Q  C  P  J  I  U  K  N  I  N  E  T  A
+L  E  S  E  A  X  R  V  W  G  K  M  U  I  R  E  M  V  F  P  K  R  A  T  I  C  A  T
+E  F  E  O  Y  S  X  Q  V  T  C  J  F  N  E  Z  V  L  X  G  M  E  T  A  P  O  D  Q
+I  F  N  Y  A  Q  W  T  U  T  M  B  X  W  W  L  Q  H  O  T  G  F  B  C  I  K  P  S
+A  C  M  B  F  N  O  X  K  M  A  B  C  I  F  L  E  H  O  F  F  U  T  Y  L  G  G  I
+W  X  R  Y  T  D  G  I  Q  Z  R  K  C  P  P  V  K  O  V  U  L  P  I  X  R  Z  M  A
+I  E  U  A  E  E  L  H  N  I  D  O  Q  U  E  E  N  H  R  R  A  L  D  V  J  Y  X  C
+4 16 26
+RATICATE
+CATERPIE
+BUTTERFREE
+NIDOKING
+U  P  J  V  K  H  S  Q  V  J  D  T  D  Y  W  G  J  B  Y  J  O  I  Q  L  S  O
+Y  Z  S  C  J  A  S  A  J  K  Z  G  X  M  P  P  A  G  H  O  Q  E  O  Z  T  E
+M  U  W  J  O  R  I  R  A  T  I  C  A  T  E  Q  M  Q  X  H  F  G  R  A  Z  C
+L  Z  Y  U  N  S  Q  N  H  Z  U  S  Y  J  A  G  R  W  Y  I  I  U  N  U  G  O
+U  C  L  F  U  A  L  U  X  U  K  P  M  R  M  A  F  C  H  N  G  L  V  C  H  J
+O  G  F  A  B  B  C  B  Q  S  P  H  B  O  W  V  Z  S  B  S  Z  S  T  P  Y  M
+T  R  P  S  N  F  Z  Y  W  M  V  D  H  X  Z  V  A  U  L  Z  Q  K  V  K  P  M
+M  I  M  B  N  P  N  Y  Y  E  Z  D  J  M  E  P  Z  W  I  M  I  I  W  G  G  L
+N  V  G  Z  P  J  M  L  F  H  V  N  V  K  A  W  G  M  C  L  H  A  H  D  E  D
+J  U  E  O  W  E  L  E  O  G  W  Q  H  L  U  N  R  J  T  L  W  T  T  X  N  Y
+O  W  A  Z  X  M  J  Z  K  L  I  Y  X  O  Q  Z  E  B  A  O  S  K  Z  B  B  A
+H  P  T  R  D  Z  Y  L  T  K  B  N  B  C  W  D  R  N  E  C  K  G  P  X  Q  W
+Q  Y  P  N  C  A  V  N  H  O  F  T  U  L  J  Y  Y  B  L  E  A  O  K  R  M  C
+G  B  U  T  G  N  I  K  O  D  I  N  T  E  R  F  R  E  E  Z  Z  V  G  M  R  K
+T  C  X  K  X  N  G  R  T  B  H  C  A  T  E  R  P  I  E  H  P  M  Z  Y  U  D
+Z  K  N  Y  D  W  P  I  C  Z  P  W  R  H  E  Q  V  A  Q  Z  L  H  D  U  W  T
+3 2 40
+PIKACHU
+WIGGLYTUFF
+VENUSAUR
+K  F  B  T  Z  E  Y  O  V  M  D  V  P  Y  Z  X  B  S  A  O  Q  W  U  U  R  S  G  J  P  I  K  A  C  H  U  R  U  I  R  U
+A  S  U  N  E  V  N  T  E  J  N  B  W  O  L  Y  P  U  Z  R  C  J  W  I  G  G  L  Y  T  U  F  F  Q  S  J  W  G  Z  U  H
+9 20 13
+NINETALES
+BEEDRILL
+ZUBAT
+EKANS
+WEEDLE
+CHARMELEON
+PIDGEOT
+MAREEP
+CLEFABLE
+E  A  O  F  Q  Z  M  Q  W  C  C  O  P
+P  C  M  P  W  F  A  C  R  M  Q  Z  P
+Z  N  O  G  O  S  I  J  K  H  K  T  O
+L  L  I  R  D  E  L  D  E  E  W  E  E
+B  F  N  I  N  E  T  A  L  E  S  U  V
+N  J  T  O  E  Z  Q  Y  E  V  S  I  M
+W  A  S  B  H  V  F  X  A  D  V  S  I
+T  S  N  S  Z  N  I  Z  U  B  A  T  K
+I  A  R  B  U  E  Q  E  F  X  H  Q  T
+G  A  M  M  W  M  K  Q  Y  X  P  X  H
+A  I  J  T  J  T  X  J  B  G  O  M  A
+R  E  E  P  W  Z  V  U  Z  Q  X  R  N
+M  A  D  D  B  N  E  E  A  X  B  C  T
+S  U  F  T  Y  V  B  I  J  T  H  H  T
+A  O  A  S  E  O  L  T  G  N  O  E  L
+B  A  F  E  L  C  E  L  E  M  R  A  H
+C  I  N  K  E  K  A  N  S  Y  F  T  G
+V  Z  X  H  A  T  O  E  G  D  I  P  W
+X  L  E  F  T  K  E  O  O  X  R  H  C
+G  C  H  M  E  A  K  Q  V  Q  L  N  J
+7 13 20
+RATTATA
+CHARMANDER
+CLEFABLE
+GLOOM
+RAICHU
+FEAROW
+TOGETIC
+H  T  E  J  O  D  R  X  D  O  L  L  P  J  Q  Z  V  X  N  R
+X  Z  F  X  L  R  E  D  N  A  M  R  A  H  C  Z  Y  Q  S  C
+D  T  H  A  H  R  K  S  K  F  W  U  T  M  O  O  L  G  K  F
+H  Z  F  Q  P  Y  Y  U  U  Z  H  A  Q  X  M  T  O  G  E  T
+I  C  X  V  Q  H  K  S  J  Y  O  H  G  G  G  O  R  H  H  R
+U  L  D  Y  H  U  X  N  C  B  I  Q  J  G  U  H  C  I  A  R
+J  F  J  F  A  N  S  G  G  I  U  E  Y  B  U  O  V  A  T  A
+E  L  B  A  F  E  L  C  T  T  A  R  F  G  C  J  J  Q  M  O
+B  I  T  J  M  L  O  X  M  J  G  J  E  J  H  U  P  E  H  U
+I  O  H  X  D  A  E  T  Y  K  Q  Z  N  O  Y  W  O  R  A  E
+F  X  N  X  X  L  E  D  F  Z  E  O  G  N  T  N  K  M  W  X
+X  L  D  B  M  Z  A  V  L  Q  T  J  Q  T  E  J  K  A  N  D
+A  P  Z  T  M  L  X  U  Q  G  A  C  W  J  T  W  N  T  T  G
+8 7 18
+PIDGEY
+PIKACHU
+AZUMARILL
+BUTTERFREE
+EKANS
+ZUBAT
+NIDORINA
+WIGGLYTUFF
+V  P  Y  X  F  R  D  M  L  D  T  I  T  A  B  U  Z  C
+M  P  P  P  F  Z  I  U  H  C  A  K  I  P  Y  D  E  G
+G  F  D  O  E  M  S  N  A  K  E  N  I  D  O  R  I  N
+A  Q  W  Z  R  D  C  A  Z  U  M  A  R  I  L  L  V  Z
+D  H  N  M  U  W  P  F  D  C  Y  E  G  D  I  P  Z  Y
+V  I  L  V  D  N  B  B  B  Y  B  U  T  T  E  R  F  R
+E  E  K  T  Z  J  W  W  I  G  G  L  Y  T  U  F  F  Y
+4 26 16
+BLASTOISE
+TOGETIC
+NIDOQUEEN
+NIDORINO
+O  L  G  I  O  P  M  C  B  J  W  L  B  B  N  E
+E  U  Q  O  D  I  N  N  Q  N  P  M  R  S  P  M
+F  A  B  N  R  K  M  O  L  F  A  B  N  Y  D  B
+L  A  S  T  O  I  S  E  E  Q  G  K  K  P  O  C
+G  K  R  H  Y  C  J  Q  K  K  D  X  X  P  G  B
+E  V  H  S  M  B  F  X  O  L  J  B  Q  I  B  V
+G  P  B  I  A  E  J  L  L  W  C  X  K  I  I  U
+T  M  B  G  A  T  S  O  P  F  K  Q  F  A  F  R
+U  H  J  H  W  Y  J  D  S  C  Z  G  E  O  M  C
+O  M  X  N  N  Y  Z  H  S  H  R  D  G  R  A  A
+A  O  I  F  V  U  W  Q  L  L  T  Q  I  J  J  Y
+J  Y  I  E  W  M  H  N  M  K  Z  P  P  R  J  I
+B  J  V  O  T  C  J  O  O  P  P  U  R  W  L  V
+Q  P  I  F  D  C  P  Q  V  U  S  G  J  A  U  E
+P  A  Q  K  Q  C  U  I  K  J  C  F  J  Y  A  G
+K  T  C  R  H  N  G  N  C  E  H  L  K  Q  F  P
+W  X  C  Z  V  Y  T  Q  U  U  J  Z  X  X  O  J
+F  C  W  I  C  B  X  Q  M  D  M  Y  F  J  G  C
+X  L  Q  C  Z  S  F  S  A  P  W  C  B  B  U  Z
+U  W  B  G  S  Q  E  J  R  S  U  H  J  A  F  G
+Q  F  T  V  Q  X  D  V  I  Q  N  I  D  O  R  I
+N  O  X  R  M  B  X  W  Z  K  B  B  Y  V  R  T
+X  N  B  B  I  M  G  O  Q  Z  I  T  N  G  N  W
+D  J  X  S  U  H  X  D  G  O  K  T  O  G  E  T
+I  C  D  J  M  O  J  R  S  G  F  P  Y  G  B  G
+Y  V  O  N  Z  E  J  J  K  K  C  T  A  Q  K  M
+10 28 14
+RAICHU
+CLEFABLE
+VULPIX
+BEEDRILL
+ZUBAT
+IGGLYBUFF
+KAKUNA
+BUTTERFREE
+CLEFAIRY
+VILEPLUME
+B  Z  N  S  N  Z  U  B  A  T  V  S  T  L
+D  I  W  X  Q  O  A  P  X  U  T  Z  A  D
+Z  E  E  L  B  A  F  E  L  C  P  V  R  F
+R  E  N  R  P  A  I  S  B  D  J  V  F  U
+Q  Y  L  E  C  F  P  L  J  D  X  R  C  N
+W  H  U  Z  Q  C  W  P  C  M  Z  X  V  G
+G  N  K  W  J  Q  E  B  X  V  K  Q  V  N
+U  T  R  I  R  D  D  W  I  Q  B  S  X  T
+T  I  Q  G  I  H  X  I  P  L  U  V  S  E
+E  B  E  E  D  R  I  L  L  Q  G  X  L  D
+S  Y  L  Z  R  C  J  X  K  E  I  H  B  R
+N  T  V  M  Z  N  G  Z  I  L  P  S  M  D
+O  Z  V  L  F  H  D  X  E  R  C  Q  E  W
+G  E  T  U  X  S  G  Y  C  L  E  F  A  I
+R  Y  L  O  G  J  C  W  Y  G  G  S  F  O
+U  K  D  L  G  G  G  M  F  V  A  I  L  L
+M  W  G  A  N  U  K  A  K  G  E  I  Z  E
+E  R  F  R  E  T  T  U  B  V  B  H  Y  L
+N  M  Z  A  J  Z  X  W  P  J  A  H  G  O
+E  W  W  V  L  A  I  J  G  X  O  Q  K  M
+S  L  T  K  N  I  G  G  L  Y  B  U  F  F
+T  V  F  M  H  I  Y  U  R  A  I  C  H  U
+E  F  Z  R  V  K  H  W  W  S  G  D  A  F
+T  C  Y  R  Z  P  R  W  I  Y  U  C  M  E
+M  U  L  P  E  L  I  V  N  H  H  Y  J  X
+U  S  K  S  Z  G  D  O  L  D  N  O  L  C
+V  T  G  Q  T  K  G  C  O  O  I  T  K  B
+X  U  T  Z  S  H  Y  R  O  V  C  R  U  U
+12 30 12
+JIGGLYPUFF
+ARBOK
+SQUIRTLE
+VENUSAUR
+GLOOM
+WEEDLE
+SPEAROW
+CHARMELEON
+SANDSLASH
+PIDGEOT
+NIDORINA
+NINETALES
+G  I  X  Z  A  B  K  V  F  L  P  Z
+T  I  S  Q  U  I  R  T  L  E  G  T
+J  N  S  P  E  A  R  O  W  K  I  T
+V  D  W  S  P  P  A  P  I  D  G  E
+O  T  D  U  Q  W  C  B  B  E  D  W
+P  H  N  P  R  D  Y  Y  H  R  R  N
+P  C  L  S  X  J  I  X  X  L  T  M
+E  A  U  R  U  A  S  U  N  E  V  V
+E  Q  W  X  C  J  R  Q  Q  C  Z  A
+Z  A  F  C  W  X  P  P  C  T  G  L
+O  O  M  E  N  F  E  T  Z  X  X  F
+B  T  U  C  Q  Q  Y  W  M  B  Z  E
+T  T  C  X  M  B  Z  D  T  Q  F  V
+Y  X  M  H  B  P  I  I  Z  P  K  O
+H  F  K  A  P  F  V  A  Z  B  Y  A
+M  V  A  J  S  P  W  S  W  Q  G  F
+J  P  K  T  I  U  F  E  H  S  Y  M
+B  K  Y  N  U  P  S  A  N  D  S  L
+A  S  H  J  N  C  S  M  Y  A  V  N
+I  T  G  N  M  C  I  L  K  Q  E  Z
+L  K  Y  M  T  X  L  P  I  O  J  Z
+G  D  W  J  B  P  L  Q  I  E  R  X
+Z  J  M  X  V  W  C  T  F  M  V  S
+E  L  A  T  E  N  I  N  P  N  Z  E
+Q  R  N  L  S  T  A  R  B  O  K  F
+C  H  A  R  M  E  L  E  O  N  U  S
+E  M  W  E  E  D  L  E  Y  I  B  Y
+K  A  N  I  R  O  D  I  N  S  M  B
+A  M  Y  S  F  F  U  P  Y  L  G  G
+I  J  C  S  I  A  K  T  J  C  X  O
+14 32 10
+FLAAFFY
+CLEFAIRY
+CATERPIE
+METAPOD
+FEAROW
+BLASTOISE
+CLEFABLE
+ZUBAT
+NINETALES
+PIDGEY
+MAREEP
+NIDORINA
+NIDORINO
+SQUIRTLE
+S  X  R  P  E  E  R  A  M  E
+F  U  C  A  L  A  O  I  Y  I
+S  C  L  Z  N  U  M  Y  J  H
+M  Z  X  A  C  W  R  Y  H  F
+O  M  E  T  A  P  O  D  S  N
+H  I  M  C  L  E  F  A  B  L
+E  E  Z  X  M  G  W  I  G  O
+C  J  S  R  K  Q  U  Z  D  O
+Q  Y  L  E  A  J  F  C  X  S
+Q  T  Q  U  S  I  X  Y  M  U
+H  P  Z  U  B  A  T  Z  U  G
+N  I  D  O  R  I  N  A  B  L
+A  S  T  O  I  S  E  W  S  L
+M  X  U  X  F  X  T  R  V  M
+C  A  T  E  R  P  I  E  E  J
+H  B  H  L  T  O  N  C  L  E
+F  A  I  R  Y  D  W  G  A  Z
+X  S  S  G  J  Z  C  N  W  P
+U  K  A  W  W  S  C  H  M  C
+M  R  U  H  P  I  K  P  P  H
+D  V  Y  B  A  D  K  X  K  D
+M  M  K  W  T  F  T  P  M  N
+X  G  J  K  A  O  K  Z  Y  E
+G  D  I  P  M  K  K  C  K  Y
+K  D  S  N  I  N  E  T  A  L
+E  S  W  O  J  G  K  Q  R  M
+T  F  L  A  A  F  F  Y  O  J
+Z  G  Q  O  J  U  X  Q  P  X
+P  A  L  Q  T  S  Z  N  I  S
+Q  U  I  R  T  L  E  D  O  R
+I  N  O  W  A  E  U  P  A  K
+H  C  W  O  R  A  E  F  U  P
+4 34 8
+IVYSAUR
+BEEDRILL
+SANDSHREW
+TOGEPI
+Q  X  Z  S  X  L  U  K
+C  S  W  N  I  V  U  O
+N  G  A  A  H  O  I  B
+N  Z  B  W  J  B  W  I
+I  Z  K  I  S  U  T  S
+T  I  B  C  M  J  R  R
+T  O  G  E  P  I  A  B
+I  N  R  I  G  R  C  V
+D  L  P  P  E  U  D  G
+J  U  W  G  V  I  F  A
+G  L  N  K  V  Y  G  V
+S  X  M  P  J  D  V  M
+Z  N  Z  X  C  N  U  Y
+W  K  I  T  Y  E  C  G
+Y  Q  V  N  E  Y  D  K
+N  K  K  J  Y  I  V  T
+G  A  L  U  P  K  M  Z
+C  R  V  O  H  B  W  L
+X  F  U  J  U  C  O  G
+D  A  M  S  F  N  C  K
+H  M  R  V  A  Q  H  E
+Z  Y  L  A  V  C  M  F
+M  I  O  Z  B  D  Z  W
+E  R  H  S  D  N  A  S
+U  Z  Y  Q  K  L  O  C
+I  N  F  M  K  B  E  E
+D  R  I  L  L  H  L  Q
+D  P  V  A  M  F  F  P
+P  D  D  C  T  U  F  D
+I  Q  L  U  E  W  S  H
+R  A  G  Q  C  T  B  R
+U  A  S  Y  V  I  A  Z
+P  A  X  R  V  I  T  V
+K  W  Z  Y  E  S  Z  I
+7 36 6
+CHARIZARD
+MAREEP
+TOGETIC
+PIDGEY
+FEAROW
+FLAAFFY
+GLOOM
+T  N  N  H  Z  L
+O  X  A  E  J  L
+N  H  M  M  O  Q
+Y  P  T  T  Y  V
+O  Y  X  A  E  U
+B  T  L  C  H  A
+R  I  Z  A  R  D
+B  C  V  W  Z  F
+Q  C  I  T  E  G
+O  T  C  D  Q  J
+L  B  G  X  A  A
+Q  K  L  E  Q  Z
+G  C  V  H  P  Y
+W  H  D  S  P  E
+E  R  A  M  L  J
+E  K  F  E  A  R
+O  W  K  Y  O  Y
+Z  W  C  I  D  A
+Y  U  N  Q  L  M
+V  T  W  H  Y  E
+W  X  G  Q  E  O
+L  W  U  W  X  Q
+X  Q  V  B  K  O
+G  D  P  I  U  P
+I  L  N  C  D  C
+Q  C  D  O  L  U
+F  F  L  A  A  F
+F  Y  O  A  M  G
+V  P  U  V  O  O
+O  O  R  Y  U  C
+V  I  W  P  I  D
+G  E  Y  L  T  H
+L  U  L  O  L  T
+C  C  G  L  O  O
+M  D  L  Q  M  I
+F  M  J  A  O  H
+7 38 4
+CHARMELEON
+VULPIX
+PIDGEY
+PIKACHU
+AMPHAROS
+WEEDLE
+WARTORTLE
+A  M  P  H
+A  R  O  S
+R  C  I  L
+C  V  K  U
+U  Z  V  N
+Q  O  C  G
+L  Q  D  V
+L  U  X  I
+P  L  U  V
+X  U  C  H
+A  R  M  E
+L  E  O  N
+B  V  A  A
+L  Y  W  E
+E  D  L  E
+O  V  J  U
+J  J  F  Y
+Z  A  E  M
+W  H  V  F
+G  E  Y  E
+G  D  I  P
+F  X  W  S
+Z  G  P  G
+J  P  F  T
+M  S  P  I
+K  A  C  H
+U  C  R  D
+Y  J  V  L
+R  D  R  G
+L  H  H  K
+N  C  W  D
+X  D  N  F
+N  E  L  T
+R  O  T  R
+A  W  F  Y
+C  E  K  W
+I  F  Q  D
+G  S  G  J
+50 100 100
+BULBASAUR
+IVYSAUR
+VENUSAUR
+CHARMANDER
+CHARMELEON
+CHARIZARD
+SQUIRTLE
+WARTORTLE
+BLASTOISE
+CATERPIE
+METAPOD
+BUTTERFREE
+WEEDLE
+KAKUNA
+BEEDRILL
+PIDGEY
+PIDGEOT
+RATTATA
+RATICATE
+SPEAROW
+FEAROW
+EKANS
+ARBOK
+PIKACHU
+RAICHU
+SANDSHREW
+SANDSLASH
+NIDORINA
+NIDOQUEEN
+NIDORINO
+NIDOKING
+CLEFAIRY
+CLEFABLE
+VULPIX
+NINETALES
+JIGGLYPUFF
+WIGGLYTUFF
+ZUBAT
+GLOOM
+VILEPLUME
+IGGLYBUFF
+TOGEPI
+TOGETIC
+XATU
+MAREEP
+FLAAFFY
+AMPHAROS
+BELLOSSOM
+AZUMARILL
+SUDOWOODO
+T R V B C X S G B P C Z T K Y O T T Q I P H S L J Y Q T L K N O O V O X X R Z T U I Y I N S H G V Q D Q Z C P H S A L S D N A S K N T G K Z G H S P E A R O W G E Q S E J H A X W L Y D F A Z Z F N X A
+U X N U M I L Q B X J T K M Y W H R S X L O M D Q N H Z H M X C O G K D M F I Z V C Z H Q U D L W I Y A A A P Z O F J D Y F F R G D M J B L P M J Z H A H I Q E R X A D V V L D C W S Y G J E S Q N H N
+O W B M W I Q U Y G D T R I Y C G L T S Z T V Z I K V K H T O U C W G D K K L H T I U X R A S E Q D T J K O Z R D X L G M C O J B P H Q Y P U K U T A X C N O B U C T Q X P C J W W E U K Q N D D U I Q
+K F C Q M Z P I U I O A D U F F Y E G D I P C M Q B F E U Q S Z W G W S M D H V Y R A Q K I N A P A B J G L B J K G W L U Z X H E K P D H I D W N H Z F G M N C Z H H H T J U X O H O Q W M A B F C E A
+U F W U Y P D I V H C K B L A Q G F C Z G H D G Z K E Y K P E H E C Q I I X Y W N Q N J S T X B I F G A T E L L Z R P V B N R E J P K L G R M Q V W B L V J D X O Y W N E Q Y F G Y E H U B F S G A K Z
+W C O S E R A Q D U Q D G U Z B C W Z D O I H A L N Q X I I Z Q Q Z R M Y M G P K Q C Q I T Z J E B O K H C F H A P P A E Z P Z L M J X U W M F E C B O P D O A N X N M O Q C V U L P I X H A S P J F V
+Q V N K J O R S J R X T Q V J G W Y J M T I Y K J V E O S M I O U E K Z P L D S L N Y M N L Z N Z R N F P J B R B W N L H P G D R B T T X X K H H F P K V P A V U K A I Y T V L I R U A S A B L U B Z M
+S L C A Q Z I F J V E D X V Q Y R R R R A Y T W Q S A O R R U H C M I A F U N K W B T S H M I B Y J S E C A N R X O Y R Y B R R Q R B L V Q C N O U F G Y B F O H Z U X K I H P Z X G G B J V N Y X V J
+Y Y Y Y Z W H J O X L I K N J A G Q B J B J E Z C U Q E M C Z N M R K H O I V Z Z S Y I F U B O M X P V W P G S K I F R Z A U Y Y O Q F F G O G W A R T O R T L E X S P M L D L M N E O S Z P Q L C C I
+N A E F C W X C S B F U K F N D Z M A T C R Z O P A R B O K I O O M N O B G W C C N A X E S Q J U Y M L N T C J E U U A F S V Y E G C Q C P L J R F W X J N A Z P K Q H X I N O K U S S I Q X K E K S O
+N F V Y L D A O B B Q J Q J D P O J C U D U B Q U R M I G V F A N A T P V F Q J R V M T N I B Q S Q N E K D H E I A Z Z Q F K U F Q Z Z L P O W O Y A V H O Z I L W S N A K E J L W R C L J E Y J K X B
+T U O N B H V J F P K W V W I B P L P F X S E S N S J O E J E E Y X Z N Z A V S H Q T V N Y L N Q C L V O K F E L B A F E L C A T I W E P O E A M B S C D O X Y T D H D I T M F L M W G H H B G P I J M
+N L K Q R G G I S V T A B U Z D N L Q K J R P H Q L Z M E X P J G U G G Q W K G O S Z L Z X A W J R N Z I I U W K T I V H V A E O X K J L F B O Z B O J B F S M X J C H T G P O E M X U W M I Y X U U Q
+C X A X H V D I E X Y I M D F L Q J F J P D Z H W A Y J U U Y X F I M Y T X G W L R H T M N B F O F J H O T P K G I W V R C H U E J I J Y E R A K V Z G T X B U F T P R S G E A H F Q N I J I E Q J Q Y
+G K F Z S C J Y F J H V O Y U U T V E C C Q V F B S Y E B P Y H P D U R E O R I U S V C F B A A T E B B U H T K L K W S B E Z Q X I L D L O C H F Z T W O V A L M T A G A H I U R R C E S R M L M T S Z
+K C R C Q E A R F B S L F Z J Q S I L P D U N I E A Z D K M Y L T U H W O H N U X O U F S D O Y Y U C V Z Z O B X D L C C H S K N B R M Q U N C S I Q V H J E U A P R N T F R D T A B F N F W I E X J F
+X I T D Q O I H L A O V Z J L L X E F N Z Y L L W W F H D C B G W I I M Q P N P C Q V P I Y G L D U N I Y B T H W E S O R M H O R P V F W B M F W T Z Z R H L I E U T K R Y B M R Q B L A O U R T M I L
+U H R Z B D W P F O D H H I U F X N H J X J G X U V P S Q W P S Z H K C V T E W D S I V Y S A U R X W D Z X A J N T Q F G U W V L B E E M W Q Y X P V F P D R T M Z A G D T N P N O D B Q L L I R D E E
+B O I X X I T R G C P C H D O H C T H U Y A I O C Z O V L F E Q E M X K S J T X Z C J C N E R O W Q E D Q Z A L S R E C X T N X G X P J K S L I S E Y C L W S N V I J Y H L K G Y T L T J M K B C B D F
+P S P K Q P K L J F L A A F F Y K S T J G X K C M T I Q B P R I N I Q F T J D K Z L A E M V O Q T K L Y Q S N H A T M D F Q P A C M H P V V I G B U T Y Z V J C Z V U U K L H Y T D F O T N M K N R A B
+C Q E K S G Z X U U J I N T A S F R D O A R D I O U W R K C N T M I I F R P D O X X V K T N X T R E J J M H V D S F O F G G H H S Z U O Q D C W N R M U L U T M G J V G P Z V Q V R E J J V Z B M T I B
+W W B E M N I N P W P P B S R Y I V P K D G E N R D B Q A Q R Y W R H O J Z H Z B C W Q Z Y Z S X W I G A C K Y S Y Q U W S S K J C W J H N N C R V K Z W I U K K Y V V M I B U C T L B S W H F T V I Z
+J F Y Q N I W E P Y M B X F E R M E T C Z V T G X V E O T M V A Z Z W K Z W N S V R K O A Y E A O D P C M A R F C W C E O V F R N J N Y C B L T T Q G V I P G D L X B F F R J J F F U L I U E H U U K Z
+X V Z C N R O I Q Z Z X B D Y V Q C U U Z C O A T C J O P Q N K P E E R A M R F K A U N B Y H C E X D L E J Y S U Q M A Y S K I Z X J O V J E E C F H F T J Y H D M X A I G E M S J G N G Y O V J H T L
+Y N O F Q L L H I G A K N Q V V E A Q L M K Q G C R C O K F H A A N I R O D I N M E S V Z Q X R J M I I H Y D X P V H C Z B S K P F I Y F P U F U L C K F B G S Y W T E O O F B S A O B X Y H Y A V N N
+M B C W K D O U I Q K Y Q E D Y Y G U H A S Q T F S A K D E U D C X A G G T Q R W Z K M E G F H J Q R B S R Q E E Z N I S X E T G I P O U X F A J X C J M M M W N H R D J H D L E S I O T S A L B Y E X
+Z H T X G O V A Z E H G V X M O V K Z A B E E K T E W H S W N D D E L D E E W U X A N K S C N A C Y U H S X X U Y D V Y P T C Q D L Q Q V O M M A X H H B Q R J J S B L S G N V C S L I H V E O P I M L
+X T U D C K A U X E G X V H U I O Y B O Q Q L I K X Y R X E W T R N K N M A U R C D T U T E C J B X K Y M P Q J L S H M J T K U Q I P N W Z T N T Z T T S J Z C T A U K G F T Z I B A V X K Y S U Y D R
+L V E R Z G B L A F Z D Z H O M Q Y D J K A B D M Z V L R Z W Y U L M X O P E I C G I C E T L C Q V H Q E T Y C U T H Y W V N J I N K P H M U Q T M A C K B V D T Z P X M V H U F V I O V X R E S P U B
+S L Y P A I Z U I K I J S Y K A D S P S N Y N G N D D K V S A M T R O I L B P L A B E H Q K G Z L T T M V D F Z H H M E D V R W P M B A K N J L I S T N L Y W T K S J L H A B T W W L V M X K S O Q D J
+B O V U Y H S C U M F O N I A V W R Q M M L M N M N I Q M M S J E V I H G G G L T K F M P A P W Y O X P A D X M J R P R M V H I N Q K K F D T F G U N A E K D R V F O I B F W O W C T H Z Y W O V D I J
+D J W O M C T C C Q F F A C B K J K O U Z Q D H P P G A U A M V B I U A O X J M F Q L L W O V J M D R O H F Q C K A N E Y N N C P K Q J M K M Q T L M O H J L S G Y N F P W N O R S O W Z J N U F J D J
+X N V B A M C G L J P C N Y U B P D I U T Y D U E U E R I X F U I X R D Z J Y E G J I I K F T H G G J J Q D U K O H T H N U W D R A Z I R A H C R T O J G Y R G G M X J B Q B T F G Y F Z H I G R H C Z
+G C R S O L A Y V U D Y E X A B X O Z R K B C S H N D W H Y N B F Z S N G G G R E C Z U I G Z A E B U W P B F O I E R G U Y B D K Q I A R X G G P R W H A Y V O K L A O C A I C F V O E U A G Y U U U F
+A A E S I L S G L Z D B T U G F L S W R C M W T B T R T B M I M L V S W Z G K U B Z C M Y C M O S S O L L E B F Z V S B K A H E C V Y V P F P J V M S H K G M W W M J T L T C B G M V X I B X X U D G E
+S U M S K C V R L M W M O D D D J S X G I J M T S Q N Z M N I D O R I N O F N B I L G J E G J M I Q W M G F E T O L S Y E P T W U N W B P O T L N W N M R O O W O M L C D K A G P A U R G M L M E B H R
+F A V I C Q K P E R K X H C V W V G U I P E G O T L L E C B O X A J I K U I A W L G H H K X Y Q B J T B D G Z A Y A D S V P D E T N J E R U B C H P T N D R Y R O X D B D K Z W W F K F T R U R J E S F
+W Q I V N V R B F N B P E V E Q H X I K Y H V K N L H Z F V Z R D J T K A D E E E N Q J Q J U Q G R Y C S U S P X J P L U O T R C T A R X I R Q G L P O T H T O D F Y N Q P F V K T L P A Y G T P V B Q
+I Q B X S M B K J D H W I U W L I T T N W X J Y Y W D A Z N L A V D B A S Q U G F Q S L F L C D Z J O W V J I G G L Y P U F F Z V U F O R R X Y V E F F T X M T P P L L Z U F H C J U H M F J I U F J X
+P J D G M X Z D Y D N T H P R B C Q H I P B F P I B R B H V N W R J K D V A Z Q W D C B F M J L L R B P K B K M E F S W R S Q R Y U A U Z O A Z I P J O D M R S A O O A D N M M T U R H S D S V J S X B
+M M L C R W A I N H U L R B W M S A M K M Q P M Y Y M O O L G J T Q Z S O U J P N O J K C M J Q L V Y R W M O U B E N C U Y R E R W A U I U Y Y G U V J C B W O S O H L P H J D Z B L E K P G I R Z M Y
+O T D P F M G Y F A F H Y E Y G G U Q G E U J I Y B H B H C D U L V R Y X R S N S O Z O H A V R V N B G I F C T T R Z M G G D T U Q U E M A X A X H A P Z G B N E M I M A E N W B L G R R E S A E S K A
+E U Z K U F U U C Z Y F D M E Q M K V Y R D L Z R Q F Y T G I F H N D O K L Z P J L K W W Q K D V C T A G S J Z Q C W N Z S C I V T X G E N Q E T B V U W X R S F I I O X R C R O Z J Q M O K I B G M S
+J R S B R D H U U E R I E X X E M Z U W N X H G D P N B S G D R R A Q H L P W N W Y K V R K I N X S A H F F U T Y L G G I W T T C H H H Z O X S H Z O L E J N R F B F C D X E H W M A V Q I D V V X T D
+Q U H O I T O Q P D I J S X I P S A L P P R V B P B V E Q V N Q A C Y L U K P A U J D N W O G Z D V P G E U T S N R V X Y V F M D W R K A Y Y F F U I L W L T B G H E C C U L Z Z Y S C S Y G F Y L R H
+L L Q V I Y Y Z L V R U P A I B Y C F G C V B U S C H S B H Q A L P B J J Q Y C I O P C S C N Z B N U S J O W E I L W B M I T K B J L C I G T N C B T W X R G H J S F C K M Q K Y F U S Y J A J C O H W
+R V K R A P A D W Y H P E P H W E S F Q R L V T K X U D V P T Z Z V Z F E Y O Y B Q I A S P R K V G B U P L N K P T J P M R N Z V V M V S N S J Z U A B N X N Q Z M X L P Y O S F N Q A D S C H Z T I A
+R Y M Q Z Q D U T V U R G V N R O A M M V F Z F R Z P H X X P P Y F M B C D R N T U D D Q E S F N M U D I M X T J W Z V H Y K J B L G V Z T P L U N U R F U Q A L Z B Q Y O T A E K V D S Y P G Z G T U
+M T U A K B R I H D C M E T A P O D I Y Q L I U R Y W X O W U H V F P N U X S D X K D N Y U C H Q A V C W G K M J Z T M K F Q C B U T N H V X Y N S A J T L B X M K A N N S N X L O B P R Q B U I S J Q
+W L U Z I E I T I F R T W W L O B X N F O Y Z G O K Y V S A O Y N B P L L X N M G X S N Y V M S F T O Z Y I J S U W T F J G O O W H K G S O W H B J G P M E E Z B D Z I W F D M R E C D T Z D U L R V D
+F V H U X O B L N L W L V E X G E B L J M M H P Q I L C Y K T O X T J W P H K K X Y L H J S C C I T E G O T S W N B C H N R N F W A N M Z M N B P P N K L C D Z K P C F B A S Q X W N J J Y O X I C B L
+D I O V X Z U V L L Z O M Q P F L P R S L U T J G H S X R O T J Q L N D V X A O F U N J R B F S R U N J X B T E Y I G R A Q C T G Q J Q B P M P Z P O D O O W O D U S D Y Y X M S Y I T F Z R M S S Q B
+P A I K I B E T S L Y J X I J O W W Q J O G U H Z T H Y D L Y S X F P V V Q R N C D Z X F V I O K Y F H C M S D O I F P K O R Z J R Z L L D B V M R S N M P Q J V T R J I Z U U J F T Z N I L O B B C K
+U J W E L X T Y N E Y U D K Z E P G J A W S V U O V W L O C C Y K J N S F T L B T B E O N R U I N O U X T S O P P U W D F O C J Y Y D B G U K X P A U D C I H X B R H V K H U V P P Y M I C R O F N L I
+Z O X V F S H C A G F V A Y A K V E N W E Q X Q C B V H K H T B G D Q G L P Y V Q K R T N U T D Y Y N I W R K E P N D X F A W C F O T J W E Q P G Q L J L I Z K J I H J E W I U D Q L L S B Z T U Z A J
+E R R G H X C L D Q S Z A D F T H W B P E C D E P L U J O Q L L B J G B Q P O M K I S N I D O K I N G V Q M Z D A E O Y T Y G I X Q F L Q F M T M T N R Q S V A G Q V K Z U Q N M U K R S I Q U U T J V
+Y O V N I W W Z H V K I R X P X G A D Q P A T A T T A R W L F B V G Z H M A E K G T Z I Q D K C L I T V X E Z X X T X F B G C K N H Z B C C Z Q J H N P N B O B V E L Z O Q R H V X X J Z J G J W K T J
+A O Q V X C G J X Z S Y B V O H W J H A O Z Q Z A W F R D G I E S R K N Z V F E M S U E Q T T N S V F J D V O B R W J M X U R B V V Z T D H V A P Q J U G F O A O M S E S T B N G C T K V U G Q W P F C
+O G I M A S R M A W M G L O B K Q V J N T U D X U F Y K H L B Z T H E I P R E T A C W E C G A Y C J G J D M F O P K D L M E D S B I X W Y E X Y O A G F P R S Z Z B I I X W N W M Y N M A P Z K W Y T Z
+A T G M W Y S Y Q U N J P R Y P V T W I W Z O U L X U A C I Q X X P G T D U I K L S W U U J M T N U Z M M M D I R N Q Q E K Z T J N Q Z K W O Z C L B V W D F B L N S T I M S G T J I Q S N B F D H K M
+W Y O H Z A O L A P K I K L X F U I H O S D E Y V T C O R Y C T V F Q T A T U T I M S R V P U G Q G U R L C G J A I F Z Q W I B Z O D J D Z X D L P M E M N M D Y M Q S J I F S P A K H O L X K E E G A
+S I A Z I O N W Y Q J B W W F D P Z W Q M I K Z V N D T V Y U T A L T U B R T B D K N X E G F L V T N W G L T B X V Q O T Y D Q U T P G D O O R H M L H I D O L A E S H E O A O Q U E M H D L M Y U L B
+M J L H M C Y Y V Z M E F L J Y T A Y H A N R K X M I G N R M K C D Q T H K A D M M M F K Q X J D P G S U O Z H F Z C X D J Q V E C U C M J E K W N W N Z J K R G S D L V Y U Z U O V P R R N O S Q V X
+L G J T O Z U H B M Z Q L K M S H O K O L O H O M C H H Z W Z D I K E J L M U G Z N N M Y T G B Z Y F H J D I N I Q A X A I Z G U J G T Q P T L N D B G L I D R V K A R K D X D T W O R K E D B I H W G
+W F H F M T I W U F E A R O W P C H D S Z W A D C T M S Y E I G A I M S K F X O R S I U I W J J J U U G W T H A H L B R P O A C R H N E B A S T W O J R C N D Z U H R H D L J N L D I A B X X Y G G Y C
+J P Q H O E W P F H S S J H X S G L I Z I U I J Q E D T G O Z Q K W R B Y X W V O R R Z O D V I L E P L U M E E M N O H M C Y G X N R W V C R H Z J S S G S S P K E F C Q Q U X M X B M W Z F M Y S O P
+I Z P U U Z X C B F L L I U Q Q V T F E Y P X O G V H F U S D P Y Z A Q A N A F R D F L M D Q D U J Z K L B R K X F H D T M Y O J F F F V B J T E K T P H V K W H O D Q F F J F M A M S G W P X M U D H
+R V B Y Z G V T W C W B J A Q K E U H C B P E Z T B U C E S U C R S Y G F V C W H I V K C B M Y V C Q A J Y I P D K D R P Q U X Z I E T B K M Z D D V X T W Q B K C A B W V I M Y Y N Q H T O E G D I P
+J F X C Z C U L Z I Y Q R K Z E Y M H C H T S A M E T P A W K O U W H P J C D J A J Q I Y K W M F C W Z C L X V T W P U V P O E B D D S X J A Y T N C H C F Q T N Z G N H A E J I A U P F S C S D C H T
+N W F Z P Y M X E M N W W T G Y F G W Q Q L O P G T U M Y W L D U F D O V W Q O O M N S T E L V E Q N C Q E S A Q H M X N R M S U T J U O O Y X Q C T S Z L V V A T S T Q J C V J C Y L Z U F G I N J V
+O R L G B I G S V X M J R G T P Z X H F F Y D V G C W R J E B L H F H T O O G I B J C L R N Z O P W V E J L A K Y I Q U I H Y L J M P W O F I B K R B L D Q K W R E G M K A O P I W W X V X Z Y R O Q A
+N U W K E A D Z U V F Q T A Z U M Q F R S K G U W F T Z P I W V C F X R U B P F S A Z U M A R I L L N V J F H V M O L Z A G V Q E G B K V R G K I C U T V U P P K R E D N A M R A H C J W A W F K Q R K
+H B S A H R E Z I X V B V G N J P V X Z A X N A O O C B L L T C Z O K O N W D W T I N A O C X O V C S Z C U T Q E N E Y Z Z I K K W K H R S P F U W K E O U G M O J D C I B X U L E O D A C H E U S Y T
+C C P S I B X N J R T Q E O J Q C V D D F Y K P J B W J C T M M P T M W D N F L H Z J A V D L A I Y M A G R L T H F G A Z K D E J A F V D W I Z Y H A V K S J W B I J Y K J Y T A D O E C N U P D A E H
+K H Y L X Z U N Q K B T B H A U A L B X P W I Z V E G R S V O F X P O G J D G M O T Z S M O C F N M V Y S E X S W F X Z E H D K A T X V O E N G A O S V B C Z S A N D S H R E W N G Y V H M J I C M P P
+J G I Z C X N H R V N R M X L E V J L W U P Z S B U T A G P J X E N Y Z O H I Q L U O X L C P K K O N S U F Q Y C D P D Y N E A P A T U Y E L U T J X V N P X G S S U Y R F G N M H N G A M Z R W T C P
+I K X E L D I Z X V L F Q I U U F O Z G J T J Z R N K T J H F F Q R E I H L O R S F U F U P K L X U I P X H E T L S S W H L F P N T N A R D M F P P Q G N G E I B L B X P D L T L L J O Z Z J L J R G J
+O U H G G R Y P I Q U S C F Y J G R H Z C O T D E S O L L C F I J A M T E R S Y I K D M E I G H K A Q Y F F B G C I F U N I M K K W J L B N P C T H M V W R M U N Y B J J F U X P Y E A T X E R J Z Z E
+J D J B O V D Z I M A V Q D X P V L P L U E C L Y O P U R L G L D N Y E I O J S W G K O P E K C M N U A Q X V F C R P O W H Q Z R Y F G M E P L N M A W W X U Z J B J X Z A R B B C H G I N X A G V S R
+A N K O H B R V E Q E E Y L K N N Z T R X W Z U E G M X D D W P E T J V N Y V M Y A E N Y O K R H H K B N O H G P G V H A W X O U B N A V E L T R I U Q S F J T B F Z B E B S X Y Y U L A W J V H E J F
+F K I L O D N I Y G E B A T F G T Z O P N K J D F G H S V U J B F H N N Q N C M V F B S E W Y R B U R E N G B P N S F A B F D B N J Z O T P U A K U E A V O O L M T S W F X Y G O K G M B D X V N B A R
+O P R P L J B L O V W K M B L W H K I X H Y R I V Q U L J X V I E U D J F B O M T G X Z N D V V T M Y L Z K U L F B G W G C H L S H P O C J L X G L J A M S Z L R Z A J C D L F X L I K Z T N Y O T L J
+Y J V Y U F X T H I S C R N C L L C W B N J X D W D R F M E X L B V U V Q A A K Z W U N S Y T D V F W X D W X E Q V M B S C R Y W F V S C Q Z Y M H E R T H V A M N B D S G F E T N S B J G R V J U E Q
+T L C M L F M O O E K U W G O L L G M H E T D Y L G T V O U V P P X M G D N P W I T D D O N E C F U O C V X E Y S A V I C I X P M P A S J G K V Q L W K P F Y O U N Q W K Q O J C Z L N G Z I C I U D R
+K J R D U O X L L B C T P G Z Z L B D T A W A J A I I T Z Q F I P O B M Q C D F R Y B K S V Y V R C F D H G M P F Q W K I L P N I U S T G Z N X A A J J E K Y Y P B V N Z J C R B K L J B T Q Z W U A J
+P U R Y R Y Z E X E H C P D L F V E D H G T L F U F I Z Y X P N L B H I J R H P Z Z D K D F S Q L M V O S P P Q K V M C H F B T E F C U I Z D X Y H D W E I A I P K N H U K F L H P S R I G S B E O K J
+F E W D A F X L W B M R I E W L L I D N J Z L C Y N U Z C X L S S Q K V Y Q A N Z S D P I R T G P M E W V F Y Z V O O F C R F B L C K R I R W T R I O F Q S B K M Z E A W E R L P Z J U Z H A N Y V Y V
+I C H A S E L A T E N I N R M E L E O N J X P A S F U B E C J H R A B U T T E R F R E E D H W K N Z N B B P B Q M C C D V O T W J U F S M R Q S O Z U I I G Y I V E C P U P Q Y G N Z P Z Q A W M L W R
+S B V M U C J O V M K X Y H V O H J U I P W H B R L H I P C V W Z T V G W A D Y R I A F E L C O L G J I B W R Y G D M I C C B F K K Y K D X Y Z X M W Z U Q O L E O B L Z C O G E H W T H R T R F R I X
+I V M D X I A X V A N U K A K K S V V V I X G P V A H S P F K F S U W U H C I A R J N T B X H V H Y F I N O W K S Y F T S K Z P R Q J Q L M G G W J B C Y Z A G A I L Q X D A V X T N L D Q E K G B G W
+J X P Y O K P Z X C Y T J R U I U E Y J T J E V N C M E D Q R G Y W Q D I E M R F I I W L Z V Z Y C H Z A O O M Q M T S R Z Z U M B Y W P U G B R D A X F R V E G N D D G E U V Q X M A Z D I Y L M O R
+Z H A U W T R P S V T I S Q D E L I L B L E Z X E S S J C U O S S I G G L Y B U F F W M N D C A J K B N O E V C Z C S F R G E F U S I X R B U B I Q J B K O G Q O G L R W K L O J A S H J V N F B Y G N
+J M Z L U F H D X D V L X Y E I D E G L J O X P Q U J G Y A K R O C D F S W H Q T C R K B Z V H F Q L Y R E J N C B R L W Y S Q E T K N Z N H K T M H X Y N I H G X A F N T T O Q M E M Z T L N S S G T
+H F D A R B L Y K R G G L I O O Y R K U K N D K M D R P B Q V L W M M Q Z L I Z K W W L L F O G Q Q F B A B T P E R S K Q A R A T I C A T E I A T N E L E E B E B G D X O S G K W I P O H L O U K O B X
+U L Q M X R K F G O Z X Y P B X T E R H N V D J A V R U H C A K I P P E Z T Q Q D I P Z B H O R C U U M J V T Q Q P N T O A N M I M E Q W J M W P L W F I A K P F B V W X H Z M W T K L D F M U T W R K
+Z A W L X E K U C M A J H P T K W G M D B P M V R Y S L Z K N H X B Y N E T C Z F F D S R O G C I U K M J A E D I J D O C H T Q G T G O I L R S X O Z R I H G X N K K Q X G R O B U O P D R E C X Q U Q
+C W F J D W G U Y P M J X L E B C P T B G C F U O C J R V O I I Q Q C E H R N A M I N W C J E X F D J U I J Z Y J V Z T N Q Q R Q R B M V N R C T L C N I S L G Y N E B F J L R D N I D O Q U E E N I K
+V F S I W V U Y S Y S N I W K U W X R F J X D D H F R L N F Y Z A R J M F J Q C W T A H P D V C S G M B K Z S P H M O H T A A M P H A R O S N N A T A B W Z U C E A Z J E T V Z B I G X V K C P M C P Z
+U C E R P E I Z H W A Q C A V E N U S A U R E A F M D Y T U O U N B A S M Z H A C G O A Z F J L C E Q O V Z I L M F C B U E B S C T R O O I S A Z T G U B P Q O W I C C H R W U P I N X T U B Z C E E F
+S C G X I Q T Y T V Y P I J A R Y O G L Z Q P Y V H Y E D K T O J M V P A W C K F V L U R C H P A C Z J R G P D B U J G Z N Q S R H W G B T X A O L D P R P I Z B C Y S A K M Q V V G B B D J S K J A E

@@ -1,0 +1,5 @@
+Case #1: GABC#DEF#G
+Case #2: ABbCDEbFGA
+Case #3: ABC#DEF#GA
+Case #4: BbCDEbFGAbBb
+Case #5: D#E#F#G#A#BC#D#
