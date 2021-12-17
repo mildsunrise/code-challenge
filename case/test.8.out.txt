@@ -1,0 +1,10 @@
+Case #1: -
+Case #2: -
+Case #3: Ferlach,Kaltennordheim,Mangbwalu
+Case #4: Leopold,Quirihue
+Case #5: Aberbargoed,Azogues,Bauska,Salcea,Tigard
+Case #6: Aberbargoed,Fortaleza,Kanie,Leopold,Mangbwalu,Milliken,Salcea
+Case #7: Bauska,Hachirougata,Jessup,Kanie,Lod,Malita,Milliken,Tigard,Waxahachie
+Case #8: Gospic,Kadugli,Lod,Yungay
+Case #9: Azogues,Eidsvold,Fortaleza,Guasavito,Hachirougata,Halifax,Kadugli,Mangbwalu,Milliken,Niquelandia,Senec,Waxahachie,Wellsville
+Case #10: Bethune,Deming,Fortaleza,Gospic,Kadugli,Labe,Lebork,Niquelandia,Saky,Senec,Wellsville,Yungay

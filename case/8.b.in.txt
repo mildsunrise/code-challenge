@@ -1,0 +1,11 @@
+1
+9
+A,B
+B,C
+C,D
+D,A
+C,K
+K,M
+M,N
+N,L
+L,K

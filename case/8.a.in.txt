@@ -1,0 +1,16 @@
+3
+2
+Chicago,Houston
+Houston,Dallas
+4
+Madrid,Barcelona
+Barcelona,Zaragoza
+Zaragoza,Valencia
+Valencia,Madrid
+6
+París,Lyon
+Lyon,Toulouse
+Toulouse,Lille
+Toulouse,Niza
+Nantes,Niza
+Niza,Lille

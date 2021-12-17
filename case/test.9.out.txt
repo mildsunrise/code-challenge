@@ -1,0 +1,6 @@
+Case #1: 0
+Case #2: 44
+Case #3: 279
+Case #4: 592
+Case #5: 725
+Case #6: 1075
