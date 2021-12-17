@@ -10,35 +10,43 @@ point_scale: Callable[[Point, int], Point] = lambda x, k: (x[0] * k, x[1] * k)
 point_min: Callable[[Point, Point], Point] = lambda x, y: (min(x[0], y[0]), min(x[1], y[1]))
 point_max: Callable[[Point, Point], Point] = lambda x, y: (max(x[0], y[0]), max(x[1], y[1]))
 
+# parsing / main code
+
 def main():
     T = int(input())
     D = int(input())
     sprites = [ parse_sprite() for _ in range(D) ]
+    process_case = process_sprites(sprites)
     for i in range(T):
         P = int(input())
-        defs = [ tuple(map(int, input().split())) for _ in range(P) ]
-        assert all(len(d) == 3 and 0 <= d[0] < len(sprites) for d in defs)
-        ans = process_case(sprites, defs)
+        defs = [ parse_sprite_def(sprites) for _ in range(P) ]
+        ans = process_case(defs)
         print(f'Case #{i+1}: {ans}')
 
-Sprite = list[list[bool]]
-SpriteDef = tuple[int, int, int]
+Sprite = tuple[Point, list[int]]
+SpriteDef = tuple[int, Point]
 
 def parse_sprite() -> Sprite:
     W, H = map(int, input().split())
-    rows = [ [ {'0': False, '1': True}[x] for x in input() ] for _ in range(H) ]
-    assert all(len(row) == W for row in rows)
-    return rows
+    assert 0 <= W <= 512 and 0 <= H <= 512
+    rows = [ input() for _ in range(H) ]
+    assert all(len(row) == W and all(x in '01' for x in row) for row in rows)
+    rows = [ int(row[::-1], 2) for row in rows ]
+    return (W, H), rows
 
-def process_case(sprites: list[Sprite], defs: list[SpriteDef]) -> set[str]:
+def parse_sprite_def(sprites: list[Sprite]) -> SpriteDef:
+    I, X, Y = map(int, input().split())
+    assert 0 <= I < len(sprites)
+    return I, (X, Y)
+
+# logic!
+
+def process_sprites(sprites: list[Sprite]) -> Callable[[SpriteDef], int]:
     def resolve_def(d: SpriteDef) -> tuple[Sprite, tuple[int, int], tuple[int, int]]:
         # returns (sprite pixel getter, bounding box start, bounding box end)
-        idx, *start = d
-        sprite = sprites[idx]
-        size = len(sprite[0]), len(sprite)
-        get_pixel_rel = lambda p: sprite[p[1]][p[0]]
-        get_pixel = lambda p: get_pixel_rel(point_sub(p, start))
-        return get_pixel, start, point_add(start, size)
+        idx, start = d
+        size, sprite = sprites[idx]
+        return sprite, start, point_add(start, size)
 
     def sprites_collide(d1, d2):
         s1, p1, q1 = resolve_def(d1)
@@ -47,10 +55,21 @@ def process_case(sprites: list[Sprite], defs: list[SpriteDef]) -> set[str]:
         p, q = point_max(p1, p2), point_min(q1, q2)
         iw, ih = point_sub(q, p)
         if not (iw > 0 and ih > 0): return False
-        # check intersected rectangle
-        check = lambda x: s1(x) and s2(x)
-        return any(check(point_add(p, (x, y))) for x in range(iw) for y in range(ih))
+        # check intersected rectangle (hot code, avoid range() and stuff)
+        y1, y2 = p[1] - p1[1], p[1] - p2[1]
+        endy1 = q[1] - p1[1]
+        shift1, shift2 = p[0] - p1[0], p[0] - p2[0]
+        mask = ~((~0) << iw)
+        while y1 < endy1:
+            row1 = s1[y1] >> shift1
+            row2 = s2[y2] >> shift2
+            if mask & row1 & row2: return True
+            y1 += 1; y2 += 1
+        return False
 
-    return sum(1 for i, d1 in enumerate(defs) for d2 in defs[i+1:] if sprites_collide(d1, d2))
+    def process_case(defs: list[SpriteDef]) -> set[str]:
+        return sum(1 for i, d1 in enumerate(defs) for d2 in defs[i+1:] if sprites_collide(d1, d2))
+
+    return process_case
 
 if __name__ == '__main__': main()
