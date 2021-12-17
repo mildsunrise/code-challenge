@@ -1,6 +1,14 @@
 #!/usr/bin/env python3
 
+# For this to go reasonably fast, we do two things:
+# - we store rows of bits in ints, using them as bitstrings
+#   so we can then use more efficient bitwise operations
+#   and so we can move a lot of the hot code into C land.
+# - since there's a lot of bitmap instances and they are sparse,
+#   checking every pair O(n^2) won't cut it; use a spatial index
+
 from typing import Callable
+from sklearn.neighbors import NearestNeighbors
 
 Point = tuple[int, int]
 point_add: Callable[[Point, Point], Point] = lambda x, y: (x[0] + y[0], x[1] + y[1])
@@ -68,7 +76,15 @@ def process_sprites(sprites: list[Sprite]) -> Callable[[SpriteDef], int]:
         return False
 
     def process_case(defs: list[SpriteDef]) -> set[str]:
-        return sum(1 for i, d1 in enumerate(defs) for d2 in defs[i+1:] if sprites_collide(d1, d2))
+        # build the spatial index, using the sprite centers
+        defsmap = NearestNeighbors(metric='chebyshev')
+        sprite_center = lambda d: point_add(d[1], point_scale(sprites[d[0]][0], 0.5))
+        defsmap.fit([ sprite_center(d) for d in defs ])
+
+        # perform search
+        hits = defsmap.radius_neighbors(radius=512, return_distance=False)
+        return sum(1 for i1, shits in enumerate(hits) for i2 in shits
+            if i2 > i1 and sprites_collide(defs[i1], defs[i2]))
 
     return process_case
 
