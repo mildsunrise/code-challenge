@@ -1,0 +1,45 @@
+4
+2
+coinscoinsmarket 6
+BTC-1-ETH
+ETH-1-BTC
+ETH-1-BTC
+ETH-1-BNB
+BNB-1-ETH
+BNB-1-BTC
+crytotome 1
+BTC-2-BTC
+4
+coinscoinsmarket 2
+BTC-1-ETH
+ADA-1-BNB
+crytotome 2
+ETH-1-XRP
+BNB-1-BTC
+yetanothercoin 1
+XRP-1-DOT
+givemecoins 1
+DOT-1-ADA
+4
+coinscoinsmarket 2
+BTC-1-ETH
+ADA-1-BNB
+crytotome 2
+ETH-1-XRP
+BNB-1-BTC
+yetanothercoin 1
+XRP-0-DOT
+givemecoins 1
+DOT-1-ADA
+4
+coinscoinsmarket 2
+BTC-1-ETH
+ADA-1-BNB
+crytotome 2
+ETH-1-XRP
+BNB-1-BTC
+yetanothercoin 1
+XRP-1-DOT
+givemecoins 2
+DOT-1-ADA
+ADA-2-BNB
