@@ -100,64 +100,6 @@ def read_factors(expr: Expression) -> list[Expression]:
             yield from read_factors(subexpr)
     else:
         yield expr
-def sort_factors(x: Expression) -> tuple[int, list[Expression]]:
-    integral, others = 1, []
-    for f in read_factors(x):
-        if type(f) is int:
-            integral *= f
-        else:
-            others.append(f)
-    return integral, others
-def merge_factors(factors: tuple[tuple[int, list[Expression]]]):
-    integral, others = zip(*factors)
-    c_integral = gcd(*integral)
-    integral = [ x // c_integral for x in integral ]
-    c_others = []
-    while tmp := set.intersection(*map(set, others)):
-        for f in tmp:
-            for o in others:
-                o.remove(f)
-            c_others.append(f)
-    join_factors = lambda fs: ([] if fs[0] == 1 else [fs[0]]) + fs[1]
-    return join_factors((c_integral, c_others)), tuple(map(join_factors, zip(integral, others)))
-def common_factor(expr: Expression) -> Expression:
-    if type(expr) is tuple:
-        expr = expr[:1] + tuple(map(common_factor, expr[1:]))
-        if expr[0] == '+' or expr[0] == '-':
-            factors = tuple(map(sort_factors, expr[1:3]))
-            common, operands = merge_factors(factors)
-            build_factors = lambda fs: reduce(lambda expr, f: ('*', expr, f), fs or [1])
-            expr = (expr[0],) + tuple(map(build_factors, operands))
-            expr = build_factors(common + [expr])
-    return expr
-
-def remove_constants(expr: Expression) -> Expression:
-    if type(expr) is tuple:
-        expr = expr[:1] + tuple(map(remove_constants, expr[1:]))
-        ident = { '+': 0, '-': 0, '*': 1, '/': 1 }[expr[0]]
-        if expr[2] == ident: return expr[1]
-        if expr[0] in '+*':
-            if expr[1] == ident: return expr[2]
-        if expr[0] in '*' and expr[1] == 0 or expr[2] == 0:
-            return 0
-        if type(expr[1]) is int and type(expr[2]) is int:
-            return eval_expr(expr, None)
-    return expr
-
-def simplify(expr: Expression) -> tuple[Expression, list[Expression]]:
-    divisors = []
-    while (result := remove_divisions(((), expr)))[1]:
-        (_, expr), subdivisors = result
-        divisors += subdivisors    
-
-    def simplify_pass(expr: Expression) -> Expression:
-        (_, expr) = common_factor(((), expr))
-        return remove_constants(expr)
-        # FIXME: combine constants (in sums only) and negates
-    while (tmp := simplify_pass(expr)) != expr:
-        expr = tmp
-
-    return expr, divisors
 
 
 # SOLVING
@@ -189,7 +131,10 @@ def process_case(equation: str) -> int:
     # set up the solver with the transformed equation + constraints
 
     expr = original_expr = parse_equation(equation)
-    expr, divisors = simplify(expr)
+    divisors = []
+    while (result := remove_divisions(((), expr)))[1]:
+        (_, expr), subdivisors = result
+        divisors += subdivisors
 
     solver = Solver()
     solver_expr = Or(*(transform_expression(factor) == 0
@@ -208,29 +153,57 @@ def process_case(equation: str) -> int:
         for idx2 in range(idx1):
             solver.add(variables[keys[idx1]] != variables[keys[idx2]])
 
-    # enumerate possible solutions
+    # restrict domain of every digit using solver
+
+    domains = { l: list(range(10)) for l in variables }
+    solver.set(timeout=100)
+    for l, var in variables.items():
+        for idx in range(10):
+            status = solver.check(var == idx)
+            if status == unsat:
+                domains[l].remove(idx)
+
+    # brute force
+
+    raw_solutions = []
+    keys, domains = zip(*sorted(domains.items(), key=lambda x: len(x[1])))
+    ndomains = len(domains)
+    trans = {}
+    used = []
+
+    def try_domain(key: int=0):
+        if key == ndomains:
+            if eval_expr(expr, trans) == 0:
+                raw_solutions.append(dict(trans))
+            return
+        for idx in domains[key]:
+            for idx2 in used:
+                if idx == idx2:
+                    break
+            else:
+                used.append(idx)
+                trans[keys[key]] = str(idx)
+                try_domain(key + 1)
+                used.pop()
+
+    try_domain()
+
+    # format & sort solutions
 
     solutions = []
-    while True:
-        status = solver.check()
-        if status == unsat: break
-        assert status == sat, f'solver returned {sat}'
 
-        model = solver.model()
-        trans = { l: str(model.eval(var)) for l, var in variables.items() }
+    for trans in raw_solutions:
         solution = ''.join( trans.get(l, l) for l in equation )
         if check_expr(original_expr, trans):
             solutions.append(solution)
         else:
             print(f'WARNING: skipping solution {solution} as it does not verify...', file=sys.stderr)
 
-        solver.add(Not(And(*( var == model.eval(var) for var in variables.values() ))))
-
     return ';'.join(sorted(solutions)) if solutions else 'IMPOSSIBLE'
 
 def eval_expr(expr: Expression, trans: dict[str, str]) -> int:
     if type(expr) is str:
-        assert len(expr) == 1 or trans[expr[0]] != 0
+        # assert len(expr) == 1 or trans[expr[0]] != 0
         return int(''.join( trans[x] for x in expr ))
     if type(expr) is int:
         return expr
