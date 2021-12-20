@@ -97,9 +97,7 @@ class RemoteJudge(object):
         ixs = ' '.join(map(str, sorted(ixs)))
         self.connfile.write(f'! {ixs}\n')
         self.connfile.flush()
-        line = self.connfile.readline()
-        # TODO
-        raise ValueError(f'received {repr(line.strip())}')
+        return self.connfile.readline().strip()
 
 
 # SOLVER STATE
@@ -164,19 +162,10 @@ class SolverState(object):
         print()
 
     def __format_factors(self, cell: CellState, max_factors: int) -> str:
-        # FIXME: rewrite this mess
         fmin = factorize(cell.min_factors, self.primes)
         fmax = factorize(cell.max_factors, self.primes)
         show = (len(fmin), len(fmax)) != (0, len(self.primes))
         return f'{len(fmin):2} - {len(fmax):2} factors' if show else ''
-        # reciprocial = factorize(max_factors // cell.max_factors, self.primes)
-        # forbidden = sorted( f for f in reciprocial if f not in fmax )
-        # exclusive = len(reciprocial) >= len(self.primes)/2
-        # if not exclusive: fmax = { f: fmax[f] for f in fmax if f in reciprocial }
-        # format_factor = lambda f: (f'{fmin[f]} <= ' if f in fmin else '') + f'[{f}]' + (f' <= {fmax[f]}' if f in fmax else '')
-        # factors = map(format_factor, sorted(set(fmin) | set(fmax)))
-        # if not exclusive: factors = list(factors) + [ f'-{x}' for x in forbidden ]
-        # return ('ONLY ' if exclusive else '') + ', '.join(factors)
 
     def check(self):
         assert set().union(*(c.domain for c in self.cells.values())) == set(self.indexes)
@@ -327,5 +316,6 @@ def main():
 
     answer = { c for c, cell in state.cells.items() if cell.is_target }
     print(f'Found answer in {len(state.queries)}:', answer)
+    print(judge.send_answer(answer))
 
 if __name__ == '__main__': main()
