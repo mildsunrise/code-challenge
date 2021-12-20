@@ -3,9 +3,11 @@
 import socket
 import math
 from dataclasses import dataclass
-from typing import Optional, TextIO
+from typing import Optional, TextIO, Union
 import copy
 from collections import defaultdict
+import random
+import itertools
 
 SERVER = ('codechallenge-daemons.0x14.net', 7162)
 
@@ -15,8 +17,6 @@ SERVER = ('codechallenge-daemons.0x14.net', 7162)
 
 Prime = int
 Factorization = dict[Prime, int]
-add_factors = lambda a, b: { f: max(a.get(f, 0), b.get(f, 0)) for f in set(a) | set(b) }
-intersect_factors = lambda a, b: { f: v for f in set(a) & set(b) if (v := min(a[f], b[f])) }
 
 is_prime = lambda x: all(x % m != 0 for m in range(2, math.isqrt(x)+1))
 
@@ -37,6 +37,32 @@ def factorize(n: int, primes: list[int]) -> Factorization:
 
 # COMMUNICATION LAYER
 # -------------------
+
+class LocalJudge(object):
+    N: int
+    Q: int
+    queries = 0
+    permutation: list[int]
+
+    def __init__(self, permutation: Union[int, list[int]]=100, Q=1500):
+        if isinstance(permutation, int):
+            permutation = list(range(1, permutation + 1))
+            random.shuffle(permutation)
+        self.N = len(permutation)
+        self.Q = Q
+        assert len(set(permutation)) == len(permutation)
+        assert all(1 <= x <= self.N for x in permutation)
+        self.permutation = permutation
+
+    def make_query(self, a: int, b: int) -> int:
+        assert all(type(x) is int and 1 <= x <= self.N for x in (a, b))
+        assert a != b
+        self.queries += 1
+        assert self.queries <= self.Q, f'query limit ({self.Q}) exceeded'
+        return math.gcd( self.permutation[a - 1], self.permutation[b - 1] )
+
+    def send_answer(self, ixs: set[int]):
+        assert all(is_prime(self.permutation[i - 1]) for i in ixs), 'answer is not correct'
 
 class RemoteJudge(object):
     conn: socket.socket
@@ -98,6 +124,7 @@ class CellState(object):
 
     def check(self):
         assert self.domain
+        assert self.max_factors > 0 and self.min_factors > 0
         assert self.max_factors % self.min_factors == 0
 
 @dataclass
@@ -122,11 +149,7 @@ class SolverState(object):
             k: CellState(1, max_factors, domain.copy(), None) for k in domain })
 
     def dump(self):
-        print('-- SOLVER STATE --')
-        print(f'{len(self.queries)} queries')
-        for (a, b), common in self.queries.items():
-            print(f' - {a}, {b} = {common}')
-        print(f'{len(self.cells)} cells')
+        print('\n-- SOLVER STATE --')
         indexes = self.indexes
         initial_cell = CellState(1, math.lcm(*indexes), set(indexes).copy(), None)
         for c, cell in self.cells.items():
@@ -135,9 +158,25 @@ class SolverState(object):
             label, domain = ('ONLY', cell.domain) if len(cell.domain) < len(indexes) / 2 \
                 else ('DISCARDED', set(indexes) - cell.domain)
             domain = f'{len(domain)} {label}: ' + ", ".join(map(str, sorted(domain)))
+            factors = self.__format_factors(cell, initial_cell.max_factors)
             target = { True: 'YES', False: 'NO', None: '' }[cell.is_target]
-            print(f' [{c:3}] = {cell.min_factors:3} - {cell.max_factors:3}   {target:3}   {domain}')
+            print(f' [{c:3}] = {factors:15}   {target:3}   {domain}')
         print()
+
+    def __format_factors(self, cell: CellState, max_factors: int) -> str:
+        # FIXME: rewrite this mess
+        fmin = factorize(cell.min_factors, self.primes)
+        fmax = factorize(cell.max_factors, self.primes)
+        show = (len(fmin), len(fmax)) != (0, len(self.primes))
+        return f'{len(fmin):2} - {len(fmax):2} factors' if show else ''
+        # reciprocial = factorize(max_factors // cell.max_factors, self.primes)
+        # forbidden = sorted( f for f in reciprocial if f not in fmax )
+        # exclusive = len(reciprocial) >= len(self.primes)/2
+        # if not exclusive: fmax = { f: fmax[f] for f in fmax if f in reciprocial }
+        # format_factor = lambda f: (f'{fmin[f]} <= ' if f in fmin else '') + f'[{f}]' + (f' <= {fmax[f]}' if f in fmax else '')
+        # factors = map(format_factor, sorted(set(fmin) | set(fmax)))
+        # if not exclusive: factors = list(factors) + [ f'-{x}' for x in forbidden ]
+        # return ('ONLY ' if exclusive else '') + ', '.join(factors)
 
     def check(self):
         assert set().union(*(c.domain for c in self.cells.values())) == set(self.indexes)
@@ -162,8 +201,8 @@ def queries_to_factors(st: SolverState):
             ref = st.cells[a].min_factors
             ref //= math.gcd(ref, common)
             b_max = factorize(st.cells[b].max_factors, st.primes)
-            for f, v in st.indexes[ref].items():
-                b_max[f] = min(b_max.get(f, 0), v)
+            for f in st.indexes[ref]:
+                b_max[f] = min(b_max.get(f, 0), st.indexes[common].get(f, 0))
             st.cells[b].max_factors = math.prod(f**v for f, v in b_max.items())
 
 def factors_to_domain(st: SolverState):
@@ -187,7 +226,7 @@ def domain_exclusivity(st: SolverState):
         assert len(domain) >= len(cells)
         if len(domain) == len(cells):
             for other in set(st.indexes) - set(cells):
-                st.cells[other].domain.difference_update(domain)
+                st.cells[other].domain -= domain
 
     # look for values that can only be accepted on some cells
     acceptors_by_val: dict[int, set[int]] = defaultdict(lambda: set())
@@ -250,26 +289,40 @@ def solve(st: SolverState):
 def pick_query(st: SolverState) -> tuple[int, int]:
     '''given a solver state, pick the next query'''
     # the solver seems to be smart enough so I haven't thought
-    # much about this part tbh. I just pick the cell with more
-    # factors + the more 'interesting' cell
-    # TODO
+    # much about this part tbh. I just pick the query that is
+    # guaranteed to give me more info (in factors), favoring
+    # cells with unknown target status in case of a tie
+    def get_score(query: tuple[int, int]):
+        cells = [ st.cells[c] for c in query ]
+        fmax = math.gcd(*(c.max_factors for c in cells))
+        fmin = math.gcd(*(c.min_factors for c in cells))
+        missing_factors = lambda a, b: st.indexes[a // math.gcd(a, b)]
+        potential = len(factorize(fmax // math.gcd(fmax, fmin), st.primes))
+        guaranteed1 = len(missing_factors(math.gcd(cells[1].min_factors, fmax), cells[0].min_factors))
+        guaranteed2 = len(missing_factors(math.gcd(cells[0].min_factors, fmax), cells[1].min_factors))
+        return guaranteed1 + guaranteed2, potential, sum(1 for c in cells if c.is_target == None)
+    available = itertools.combinations(st.indexes, 2)
+    available = [ (x, get_score(x)) for x in available if x not in st.queries ]
+    return max(available, key=lambda x: x[1])
 
 def main():
     judge = RemoteJudge()
     print(f'Connected: N = {judge.N}, Q = {judge.Q}')
-
     state = SolverState.initial(N=judge.N)
 
     while True:
         state = solve(state)
-        state.dump()
+        if len(state.queries) % 50 == 0:
+            state.dump()
         if all(c.is_target != None for c in state.cells.values()):
             break
 
-        query = sorted(pick_query(state))
+        query, score = pick_query(state)
+        query = tuple(sorted(query))
+        assert query not in state.queries
         result = judge.make_query(*query)
         assert result in state.indexes
-        print(f'Picked query {query}, received: {result}')
+        print(f'[{len(state.queries)}] Picked query {query}, received: {result} (score {score})')
         state.queries[query] = result
 
     answer = { c for c, cell in state.cells.items() if cell.is_target }
